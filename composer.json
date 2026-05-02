@@ -1,0 +1,18 @@
+{
+    "name": "user/desarrolloseguro",
+    "authors": [
+        {
+            "name": "AndresFelipeRinconRamirez",
+            "email": "andresfeliperincon7778@gmail.com"
+        }
+    ],
+    "config": {
+        "audit": {
+            "abandoned": "ignore"
+        },
+        "secure-http": false
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.6.*"
+    }
+}
